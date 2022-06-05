@@ -1,0 +1,129 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 16px;
+    top: 25px;
+    /* border: 1px solid; */
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    z-index: 4;
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-item{
+      text-decoration: none;
+      color: rgb(210, 210, 210);
+      font-size: medium;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 2rem;
+      text-align: center;
+
+}
+
+.nav-caro{
+    font-size: 4rem;
+    margin-top: 0;
+    color: #7ffffb;
+}
+
+.user_icon{
+    width: 4rem;
+}
+
+.nl-phead{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem; 
+    padding-top: 0.3rem;
+
+    background: #f1f1f1;
+    width: 99vw;
+    
+    box-shadow: 0 0 1rem 1rem #eaeaea;
+    position: -webkit-sticky;
+    position: sticky;
+    /* top: 15px; */
+    top: 0px;
+    /* border: 1px solid; */
+    z-index: 2;
+    
+
+}
+
+.h-caro{
+    font-size: 2rem;
+    /* padding-left: 3rem; */
+    font-weight: bold;
+    color:#373a47;
+}
+.mh-user{
+  padding-left: 3rem;
+}
+
+.passenger_header{
+    position: -webkit-sticky;
+    position: sticky;
+    /* top: 15px; */
+    top: 0px;
+    /* border: 1px solid; */
+    z-index: 2;
+}
